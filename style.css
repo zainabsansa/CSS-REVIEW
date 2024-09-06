@@ -1,0 +1,38 @@
+body{
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+}
+.border{
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    border: 5px dotted /* we can also use solid or double*/ black;
+}
+.border-radius{
+    background-color: rgb(43, 46, 226);
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border: 5px double black;
+    border-radius:100% /* or 100% if you want to use px, use half the px of the height and width*/;
+}
+.box-shadow{
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    box-shadow: 8px 8px 20px/*for blur*/ 2px/*spread-radius*/ blue;
+}
+.text-shadow{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 30px;
+    padding: 10px;
+    text-shadow: 1px 1px blue;
+}
+
